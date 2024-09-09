@@ -79,8 +79,57 @@
 		- 常见异常
 			- 溢出（`overflow`）：当计算机没有足够的位数可以表示数据时，溢出就发生了。
 			  ![[overflow.png]]
+	
 	- lab01
 		- 博尔特虫（`bohrbugs`）：在明确的定义/条件下出现的 bug，可以通过 debugger 捕获。
 		- 海森堡虫（`heisenbugs`）：具有不确定性，会在研究他们时消失或改变行为，无法通过 debugger 捕获。
-	
+- Week2
+	- Lec 3
+		- 简介：主要讲解了 C 语言的基础元素。
+		- 资源：
+			- [[Chapter 2] How Java Differs from C (litux.nl)](https://litux.nl/Books/books/www.leothreads.com/e-book/oreillybookself/java/javanut/ch02_js.htm)
+		- 计算机架构
+			- ![[ENIAC.png]]`ENIAC`：1946年，由宾夕法尼亚大学制作，是第一台电子通用计算机（`First Electonic General-Purpose Computer`）。
+				- 通过插拔电路实现编程，通常一个程序需要 2-3 天
+			- ![[EDSAC.png]]`EDSAC`：1949年，由剑桥大学制作，是第一台通用程序存储式计算机（`First General Stored-Program Computer`）。
+				- 首次将程序存储到计算机的内存中。也就是说，计算机储存的不仅仅是数字，而且可以是操作计算机的指令。
+				- 使用了不能理解的 35位 补码。
+		- 第一个操作系统不是用汇编语言写的，而是用 C 语言写的。
+		- C 语言的重要概念包括：指针、列表和内存管理。并且，这些都是*不安全*的。
+		- 为什么选择 C 语言?
+			- 编写程序时，可以利用计算机的底层架构。
+			- C 和 C 语言的衍生受欢迎超过了 40 年
+			- 如果你需要开始一个全新的程序，可以考虑使用 `Rust` 和 `Go`
+				- `Rust` 更安全的 C 语言
+				- `Go` 适合并发编程
+		- 编译器（`Compile`）和解释器（`Interpret`）：他们之间的差异主要表现在何时转换为机器码。
+			- 编译器，将代码转换成机器可以直接运行的机器码（`Machine Code`） 。例如，C 语言的编译器。
+				- 特点：针对架构（`architecture-specific`）运行，速度比较快。难以移植，以及较为困难的 debug（每次都需要重新编译测试）。
+			- 解释器，将代码转换成字节码（`Bytecode`或中间码），再由其他方式转换成机器码。例如，Java 和 Python
+				- 特点：与架构无关（`architecture-independent`），运行速度相对较慢。方便移植。
+		- 编译器的优势在于合理的编译（仅修改的文件）和运行速度快（对架构有优化）。但是，如今较多的库对不同的硬件也有优化。
+			- Python
+				- [Apache Spark™](https://spark.apache.org/)：GPU利用优化库。
+				- [Cython](https://cython.org/)：Python 调用 C 语言。
+		- ![[CPP.png]]预处理（`CPP`，`C Pre-Processor`）
+			- `CPP` 标注以 `#` 开始，如 `#include "file.h"
+			  ```javascript
+				  #include "file.h" // 插入文件
+				  #include <stdio.h> // 查询并插入标准库
+				  #define PI (3.14) // 定义常量
+				  #if/#endif // 条件插入
+			    ```
+			- `CPP` 将直接替换掉所有的注释
+			- 可以通过 `-save-temps` 存储中间文件。
+			- 完整[文档](https://gcc.gnu.org/onlinedocs/cpp/)
+			- 可以使用 `CPP` 机制写简单函数，但注意替换机制。如 
+			  ```javascript
+				  #define min(X,Y) ((X) < (Y) ? (X) : (Y))
+				  next = min(w, foo(z)); 
+				  /* 被转换为：
+				  next = ((w) < (foo(z)) ? (w) : (foo(z)));
+				  */
+				```
+		- [C vs. Java (princeton.edu)](https://introcs.cs.princeton.edu/java/faq/c2java.html)
+			- ![[CvsJava_3.png]]
 	  
