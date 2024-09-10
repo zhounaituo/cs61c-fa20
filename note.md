@@ -130,6 +130,16 @@
 				  next = ((w) < (foo(z)) ? (w) : (foo(z)));
 				  */
 				```
-		- [C vs. Java (princeton.edu)](https://introcs.cs.princeton.edu/java/faq/c2java.html)
+		- [C vs. Java](https://introcs.cs.princeton.edu/java/faq/c2java.html)
 			- ![[CvsJava_3.png]]
+		- C 标准（`ANSI C`）
+			- [C99](https://en.wikipedia.org/wiki/C99)：1999-01
+			- [C11](https://en.wikipedia.org/wiki/C11_(C_standard_revision))：2011-12
+		- C 语言中的 `main()` -> `int main (int argc, char *argv[])`
+			- `argc` 表示参数的数量，包括一个程序名称，所以参数至少是 1。
+			- `argc[]` 表示参数数组，第一个是程序名称。
+		- C 语言中的 `True/False`
+			- `0` 表示 `False`，其他一切都为真。
+			- `Null -> 0x00000000`：`Null` 被储存为 `0`
+			- 建议使用 `stdbool.h` 库。
 	  
