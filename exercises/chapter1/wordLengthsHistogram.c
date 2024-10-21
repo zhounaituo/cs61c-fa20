@@ -37,5 +37,10 @@ int main()
     
     printf("histogram: ");
     for (i = 0; i < ML; ++i)
-        printf(" %d", nlength[i]);
+    {
+        printf("%d: ", i);
+        for (int j = 0; j < nlength[i]; ++j)
+            printf("#");
+        printf("\n");
+    }
 }
