@@ -2,5 +2,7 @@
 
 int main()
 {
-    printf("_\\t_\n");
+    int c;
+    while ((c = getchar()) != EOF)
+        printf("%d_", c);
 }
