@@ -62,15 +62,76 @@ annotation-target: ./The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.p
 
 
 
+
 >%%
 >```annotation-json
->{"created":"2024-10-23T05:58:27.417Z","text":"NEXT","updated":"2024-10-23T05:58:27.417Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":106531,"end":106544},{"type":"TextQuoteSelector","exact":"Declarations ","prefix":"D  EXPRESSIONS  CHAPTER  2 2.4  ","suffix":"All  variables  must  be  declar"}]}]}
+>{"created":"2024-10-25T02:37:02.228Z","text":"for (i = 0; i <lim-1; ++i)\n    if ((c = getchar()) != '\\n')\n        if (c != EOF)\n        ....\n    else\n        break;","updated":"2024-10-25T02:37:02.228Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":112204,"end":112288},{"type":"TextQuoteSelector","exact":"Write  a  loop  equivalent  to  the  for  loop  above  without  using  && or  ii.  O","prefix":"  under- stand. Exercise  2-2.  ","suffix":" 2.7  Type  Conversions When  an"}]}]}
 >```
 >%%
->*%%PREFIX%%D  EXPRESSIONS  CHAPTER  2 2.4%%HIGHLIGHT%% ==Declarations== %%POSTFIX%%All  variables  must  be  declar*
->%%LINK%%[[#^b6p2eh9agvr|show annotation]]
+>*%%PREFIX%%under- stand. Exercise  2-2.%%HIGHLIGHT%% ==Write  a  loop  equivalent  to  the  for  loop  above  without  using  && or  ii.  O== %%POSTFIX%%2.7  Type  Conversions When  an*
+>%%LINK%%[[#^wlyvwkttopr|show annotation]]
+>%%COMMENT%%
+>for (i = 0; i <lim-1; ++i)
+>    if ((c = getchar()) != '\n')
+>        if (c != EOF)
+>        ....
+>    else
+>        break;
+>%%TAGS%%
+>
+^wlyvwkttopr
+
+
+
+
+
+>%%
+>```annotation-json
+>{"created":"2024-10-26T06:07:23.219Z","updated":"2024-10-26T06:07:23.219Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":138169,"end":138301},{"type":"TextQuoteSelector","exact":"The  moral  is  that  writing  code  that  depends  on  order  of  evaluation  is  a  bad programming  practice  in  any  language. ","prefix":" the  call  to  printf  above.) ","suffix":" Naturally,  it  is  necessary  "}]}]}
+>```
+>%%
+>*%%PREFIX%%the  call  to  printf  above.)%%HIGHLIGHT%% ==The  moral  is  that  writing  code  that  depends  on  order  of  evaluation  is  a  bad programming  practice  in  any  language.== %%POSTFIX%%Naturally,  it  is  necessary*
+>%%LINK%%[[#^fgacjwdfemc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^fgacjwdfemc
+
+
+>%%
+>```annotation-json
+>{"created":"2024-10-28T07:42:15.416Z","updated":"2024-10-28T07:42:15.416Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":153282,"end":153461},{"type":"TextQuoteSelector","exact":"  pair  of  expressions  separated  by  a  comma  is  evaluated  left  to right,  and  the  type  and  value  of  the  result  are  the  type  and  value  of  the  right operand. ","prefix":" use  in  the for  statement.  A","suffix":" Thus  in  a  for  statement,  i"}]}]}
+>```
+>%%
+>*%%PREFIX%%use  in  the for  statement.  A%%HIGHLIGHT%% ==pair  of  expressions  separated  by  a  comma  is  evaluated  left  to right,  and  the  type  and  value  of  the  result  are  the  type  and  value  of  the  right operand.== %%POSTFIX%%Thus  in  a  for  statement,  i*
+>%%LINK%%[[#^a9u6wxvxfr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^a9u6wxvxfr
+
+
+
+
+
+
+
+
+
+
+
+
+>%%
+>```annotation-json
+>{"created":"2024-11-15T03:15:08.670Z","text":"NEXT","updated":"2024-11-15T03:15:08.670Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":270562,"end":270586},{"type":"TextQuoteSelector","exact":"Pointers  to  Functions ","prefix":"rray  of  fixed  size.  O 5.11  ","suffix":"In  C,  a  function  itself  is "}]}]}
+>```
+>%%
+>*%%PREFIX%%rray  of  fixed  size.  O 5.11%%HIGHLIGHT%% ==Pointers  to  Functions== %%POSTFIX%%In  C,  a  function  itself  is*
+>%%LINK%%[[#^0u952gne6z3|show annotation]]
 >%%COMMENT%%
 >NEXT
 >%%TAGS%%
 >
-^b6p2eh9agvr
+^0u952gne6z3
