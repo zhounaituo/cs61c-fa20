@@ -123,15 +123,16 @@ annotation-target: ./The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.p
 
 
 
+
 >%%
 >```annotation-json
->{"created":"2024-11-15T03:15:08.670Z","text":"NEXT","updated":"2024-11-15T03:15:08.670Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":270562,"end":270586},{"type":"TextQuoteSelector","exact":"Pointers  to  Functions ","prefix":"rray  of  fixed  size.  O 5.11  ","suffix":"In  C,  a  function  itself  is "}]}]}
+>{"created":"2024-11-22T07:50:58.816Z","text":"NExt","updated":"2024-11-22T07:50:58.816Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":60904,"end":60918},{"type":"TextQuoteSelector","exact":"ord  Counting ","prefix":"  unambiguous  way.  UO 1.5.4  W","suffix":"The  fourth  in  our  series  of"}]}]}
 >```
 >%%
->*%%PREFIX%%rray  of  fixed  size.  O 5.11%%HIGHLIGHT%% ==Pointers  to  Functions== %%POSTFIX%%In  C,  a  function  itself  is*
->%%LINK%%[[#^0u952gne6z3|show annotation]]
+>*%%PREFIX%%unambiguous  way.  UO 1.5.4  W%%HIGHLIGHT%% ==ord  Counting== %%POSTFIX%%The  fourth  in  our  series  of*
+>%%LINK%%[[#^3gcuzgskalk|show annotation]]
 >%%COMMENT%%
->NEXT
+>NExt
 >%%TAGS%%
 >
-^0u952gne6z3
+^3gcuzgskalk
