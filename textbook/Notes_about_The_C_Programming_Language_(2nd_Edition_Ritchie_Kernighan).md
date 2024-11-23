@@ -124,15 +124,16 @@ annotation-target: ./The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.p
 
 
 
+
 >%%
 >```annotation-json
->{"created":"2024-11-22T07:50:58.816Z","text":"NExt","updated":"2024-11-22T07:50:58.816Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":60904,"end":60918},{"type":"TextQuoteSelector","exact":"ord  Counting ","prefix":"  unambiguous  way.  UO 1.5.4  W","suffix":"The  fourth  in  our  series  of"}]}]}
+>{"created":"2024-11-23T08:34:25.971Z","text":"NExt","updated":"2024-11-23T08:34:25.971Z","document":{"title":"The C Programming Language (Second Edition)","link":[{"href":"urn:x-pdf:cdf0550b3f85917f52c5396bb7386374"},{"href":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf"}],"documentFingerprint":"cdf0550b3f85917f52c5396bb7386374"},"uri":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","target":[{"source":"vault:/textbook/The_C_Programming_Language_-2nd_Edition_Ritchie_Kernighan.pdf","selector":[{"type":"TextPositionSelector","start":84305,"end":84509},{"type":"TextQuoteSelector","exact":"xercise  1-16.  Revise  the  main  routine  of  the  longest-line  program  so  it  will correctly  print  the  length  of  arbitrarily  long  input  lines,  and  as  much  as  possible of  the  text.  O ","prefix":" add  error  checking  to  it. E","suffix":" |SECTION  1.10  EXTERNAL  VARIA"}]}]}
 >```
 >%%
->*%%PREFIX%%unambiguous  way.  UO 1.5.4  W%%HIGHLIGHT%% ==ord  Counting== %%POSTFIX%%The  fourth  in  our  series  of*
->%%LINK%%[[#^3gcuzgskalk|show annotation]]
+>*%%PREFIX%%add  error  checking  to  it. E%%HIGHLIGHT%% ==xercise  1-16.  Revise  the  main  routine  of  the  longest-line  program  so  it  will correctly  print  the  length  of  arbitrarily  long  input  lines,  and  as  much  as  possible of  the  text.  O== %%POSTFIX%%|SECTION  1.10  EXTERNAL  VARIA*
+>%%LINK%%[[#^jmojaom0hq|show annotation]]
 >%%COMMENT%%
 >NExt
 >%%TAGS%%
 >
-^3gcuzgskalk
+^jmojaom0hq
