@@ -1,6 +1,6 @@
 /**
  * @file exercise1-15_f2c_function_version.c
- * @author your name (you@domain.com)
+ * @author zhounaituo (zhounaituo@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2024-11-23

@@ -1,10 +1,6 @@
-	The  variables  in  main, 	 such  as  line,  longest,  etc.,  are  private  or  local  to 
-main.  Because  they  are  declared  within  main,  no  other  function  can  have 
-direct  access  to  them.  The  same  is  true  of  the  variables  in  other  functions;  for 
-example,  the  variable  i  in  	getline  is  unrelated  to  the  i  in  copy.  Each  local 
-variable  in  a  function  comes  into  existence  only  when  the  function  is  called,  and 
-disappears  when  the  function  is  exited.  This  is  why  such  variables  are  usually 
-known  as  automatic  variables,  following  terminology  in  other  languages.  We 
-will  use  the  term  automatic  henceforth  to  refer  to  these  local  variables. 
-(Chapter  4  discusses  the  static  storage  class,  in  which  local  variables  do 
-retain  their  values  between  calls.) 
+This is a short line.
+This is a longer line that should be printed because it exceeds the 80 character limit. It contains more than 80 characters and should be handled correctly by your program.
+Another short line.
+Here is another long line that also exceeds the 80 character limit. This line is designed to test the program's ability to handle long lines and ensure that it prints them correctly.
+Short line again.
+This is yet another long line that goes beyond the 80 character limit. The program should print this line in its entirety, including any additional characters that come after the 80th character.

@@ -1,6 +1,6 @@
 /**
  * @file exercise1-13_word_len.c
- * @author your name (you@domain.com)
+ * @author zhounaituo (zhounaituo@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2024-11-23
